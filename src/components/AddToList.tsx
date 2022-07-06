@@ -18,6 +18,7 @@ const AddToList: React.FC<IPorps> = ({people, setPeople}) => {
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setInput({
             ...input,
+
             [e.target.name]: e.target.value
         })
         console.log(input)
