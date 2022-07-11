@@ -24,7 +24,7 @@ function App() {
     return (
         <div className="App">
             <List pokemon = {pokemon}/>
-            <AddToList />
+            <AddToList pokemon = {pokemon} setPokemon ={setPokemon} />
 
         </div>
     );

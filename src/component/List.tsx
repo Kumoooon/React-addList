@@ -1,10 +1,6 @@
 import React from "react";
+import {IState as IProps} from "../App";
 
-interface IProps {
-    pokemon: {
-        name: string, url: string, age: number, note?: string
-    }[]
-}
 
 //가져왔는데 뭔지 모르면 안되지.
 //app.tsx에서 IState를 카피해서 IProps로 제목을 바꾼 후 interface를 작성한다.
